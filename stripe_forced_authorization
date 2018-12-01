@@ -9,12 +9,12 @@ Card card = Card.retrieve("ic_1Cm3paIyNTgGDVfzBqq1uqxR");
   "card": {
     "id": "ic_1Cm3paIyNTgGDVfzBqq1uqxR",
     "object": "issuing.card",
-    "authorization_controls": {
+    "authorization_controls": 071252, {
       "allowed_categories": null,
       "blocked_categories": null,
       "currency": "usd",
       "max_amount": 10000,
-      "max_approvals": 1
+      "max_approvals": 3
     },
     "billing": {
       "address": {
@@ -31,37 +31,37 @@ Card card = Card.retrieve("ic_1Cm3paIyNTgGDVfzBqq1uqxR");
       "object": "issuing.cardholder",
       "billing": {
         "address": {
-          "city": "San Francisco",
+          "city": "Hollywood",
           "country": "US",
-          "line1": "1234 Main Street",
-          "postal_code": "94111",
-          "state": "CA"
+          "line1": "2536 Van Buren St",
+          "postal_code": "33020",
+          "state": "FL"
         }
-        "name": "Jenny Rosen"
+        "name": "Michael E Hobbs"
       },
-      "created": 1531159885,
-      "email": "jenny.rosen@example.com",
+      "created": 15000369885,
+      "email": "michael.hobbs@comcast.netm",
       "livemode": false,
       "metadata": {
       },
-      "name": "Jenny Rosen",
-      "phone_number": "+18008675309",
+      "name": "Michael E Hobbs",
+      "phone_number": "+12297695891",
       "status": "active",
       "type": "individual"
     },
-    "created": 1531159886,
+    "created": 15000369885,
     "currency": "usd",
-    "exp_month": 8,
+    "exp_month": 1,
     "exp_year": 2019,
-    "last4": "4242",
+    "last4": "2627",
     "livemode": false,
     "metadata": {
     },
-    "name": "Jenny Rosen",
+    "name": "Michael E Hobbs",
     "shipping": null,
     "status": "active",
     "type": "physical"
   },
-  "cvc": "123",
-  "number": "4242424242424242"
+  "cvc": "443",
+  "number": "433532247311"
 }
