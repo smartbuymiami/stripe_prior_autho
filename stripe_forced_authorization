@@ -1,0 +1,67 @@
+// Set your secret key: remember to change this to your live secret key in production
+// See your keys here: https://dashboard.stripe.com/account/apikeys
+Stripe.apiKey = "sk_test_b68kapXJHwUYcqbpvg8SCauQ";
+
+Card card = Card.retrieve("ic_1Cm3paIyNTgGDVfzBqq1uqxR");
+
+{
+  "object": "issuing.card_details",
+  "card": {
+    "id": "ic_1Cm3paIyNTgGDVfzBqq1uqxR",
+    "object": "issuing.card",
+    "authorization_controls": {
+      "allowed_categories": null,
+      "blocked_categories": null,
+      "currency": "usd",
+      "max_amount": 10000,
+      "max_approvals": 1
+    },
+    "billing": {
+      "address": {
+        "city": "San Francisco",
+        "country": "US",
+        "line1": "1234 Main Street",
+        "postal_code": "94111",
+        "state": "CA"
+      }
+    },
+    "brand": "Visa",
+    "cardholder": {
+      "id": "ich_1Cm3pZIyNTgGDVfzI83rasFP",
+      "object": "issuing.cardholder",
+      "billing": {
+        "address": {
+          "city": "San Francisco",
+          "country": "US",
+          "line1": "1234 Main Street",
+          "postal_code": "94111",
+          "state": "CA"
+        }
+        "name": "Jenny Rosen"
+      },
+      "created": 1531159885,
+      "email": "jenny.rosen@example.com",
+      "livemode": false,
+      "metadata": {
+      },
+      "name": "Jenny Rosen",
+      "phone_number": "+18008675309",
+      "status": "active",
+      "type": "individual"
+    },
+    "created": 1531159886,
+    "currency": "usd",
+    "exp_month": 8,
+    "exp_year": 2019,
+    "last4": "4242",
+    "livemode": false,
+    "metadata": {
+    },
+    "name": "Jenny Rosen",
+    "shipping": null,
+    "status": "active",
+    "type": "physical"
+  },
+  "cvc": "123",
+  "number": "4242424242424242"
+}
